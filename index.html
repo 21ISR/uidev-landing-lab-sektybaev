@@ -12,10 +12,10 @@
             <a class="header__logo" href="#">DDX FITNESS</a>
             <nav class="header__nav">
                 <ul class="header__nav-list">
-                    <li class="header__nav-item"><a class="header__link" href="#hero">Главная</a></li>
-                    <li class="header__nav-item"><a class="header__link" href="#tariffs">Тарифы</a></li>
-                    <li class="header__nav-item"><a class="header__link" href="#gallery">Галерея</a></li>
-                    <li class="header__nav-item"><a class="header__link" href="#preimishestva">Преимущества</a></li>
+                    <li><a class="header__link" href="#hero">Главная</a></li>
+                    <li><a class="header__link" href="#tariffs">Тарифы</a></li>
+                    <li><a class="header__link" href="#gallery">Галерея</a></li>
+                    <li><a class="header__link" href="#preimishestva">Преимущества</a></li>
                 </ul>
             </nav>
             <button class="header__cta">КУПИТЬ АБОНЕМЕНТ</button>
@@ -25,52 +25,88 @@
     
     <main>
         <section class="hero">
-            <div
-
-
+                <h1 class="hero__title">DDX FITNESS</h1>
+                <p class="hero__subtitle">Твое тело - твой главный проект.</p>
+                <a class="hero__button" href="#tariffs">Начать сейчас</a>          
         </section>
 
 
+        <section class="tariffs">
+            <h2 class="tariffs__title">Тарифы</h2>
+            <div class="tariffs__list">
+                <article class="tariffs__card">
+                    <h3 class="tariffs__card-title">Light</h3>
+                    <ul class="tariffs__card-description">
+                        <li>Тренажерный зал</li>
+                        <li>Smart Start</li>
+                        <li>Кардиозона</li>
+                    </ul>
+                    <p class="tariffs__card-price">1900p</p>
+                     <a class="tariffs__card-btn" href="#">Выбрать</a>
+                </article>
+
+                    
+                <article class="tariffs__card tariffs__card--popular">
+                    <h3 class="tariffs__card-title">Smart</h3>
+                     <ul class="tariffs__card-description">
+                        <li>Групповые тренировки</li>
+                          <li>И так далее</li>
+                     </ul>
+                     <p class="tariffs__card-price">2400p</p>
+                     <a class="tariffs__card-btn" href="#">Выбрать</a>
+                 </article>
 
 
+                 <article class="tariffs__card">
+                     <h3 class="tariffs__card-title">Infinity</h3>
+                    <ul class="tariffs__card-description">
+                        <li>Полный безлимит</li>
+                         <li>Спа-зона</li>
+                         <li>Гостевой тариф для друзей и семьи</li>
+                      </ul>
+                     <p class="tariffs__card-price">2800p</p>
+                     <a class="tariffs__card-btn" href="#">Выбрать</a>
+                 </article>
+            </div>
+        </section>
 
 
+        <section class="galery">
+            <h2 class="galery__title">Галерея</h2>
+            <div class="galery__grid">
+                    <img class="galery__img" src="images/Trenya" alt="Тренировка в зале"> 
+                    <img class="galery__img" src="images/Kardio" alt="Кардиотренировка"> 
+                    <img class="galery__img" src="images/Gruppa" alt="Групповые занятия"> 
+                    <img class="galery__img" src="images/spa" alt="Спа-зона"> 
+                    <img class="galery__img" src="images/svobodieVesa" alt="Зона свободных весов"> 
+                    <img class="galery__img" src="images/Rastazhka" alt="Растяжка"> 
+            </div>
+        </section>
 
 
-
-
-
-
-
-
+        <section class="advantages">
+            <h2 class="advantages__title">Почему МЫ?</h2>
+            <div class="advantages__list">
+                <div class="advantages__item">
+                    <h3 class="advantages__item-title">Оборудование</h3>
+                    <p class="advantages__item-text">Тренажеры последнего поколения</p>
+                </div>
+                <div class="advantages__item">
+                    <h3 class="advantages__item-title">Тренеры</h3>
+                    <p class="advantages__item-text">Профессионалы, которые доведут до результата</p>
+                </div>
+                <div class="advantages__item">
+                    <h3 class="advantages__item-title">График</h3>
+                    <p class="advantages__item-text">Клуб открыт с 6:00 до 00:00 ежедневно</p>
+                </div>
+            </div>
+        </section>
     </main>
-    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer class="footer">
+        <p class="footer__c">2026 DDX FITNESS Омск</p>
+        <p class="footer__contact">ул. Пушкина, д. Колотушкина, тел. +7 (988) 621-55-38</p>
+    </footer>
 </body>
 </html>
