@@ -142,5 +142,81 @@ img {
 }
 
 .tariffs__card--popular {
-    border-color: #000000;
+    border-color: #f70000;
+}
+
+.tariffs__card-title {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.tariffs__card-description li {
+    font-size: 1.6rem;
+    color: #69004f;
+    margin-bottom: 0.8rem;
+}
+
+.tariffs__card-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #8f371c;
+}
+
+.tariffs__card-btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: #ff5722;
+    color: #fff;
+    border-radius: 0.9rem;
+    font-size: 1.6rem;
+}
+
+.tariffs__card-btn:hover {
+    background-color: #e64a19;
+}
+
+
+.galery__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.galery__img { 
+    border-radius: 2rem;
+    width: 100%;
+}
+
+
+.advantages {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.advantages__item {
+    text-align: center;
+    width: 28rem;
+}
+
+.advantages__item-title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.advantages__item-text {
+    font-size: 1.6rem;
+}
+
+
+
+
+
+.footer {
+    background-color: #6a0085;
+    text-align: center;
+    padding: 1rem 2rem;
 }
